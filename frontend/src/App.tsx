@@ -1,6 +1,21 @@
+import{ReactComponent as GitHubIcon} from './assets/img/github.svg'
 function App() {
   return (
- <h1>Página principal</h1>
+ <header>
+  <nav>
+    <div>
+      <h1>BKMovie</h1>
+      <a href="https://github.com/BeatrizKuriki"></a>
+      <div>
+        <GitHubIcon/>
+        <p>/BeatrizAlencarKuriki</p>
+
+      </div>
+    </div>
+  </nav>
+
+
+ </header>
   );
 }
 
